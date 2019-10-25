@@ -76,12 +76,11 @@ WSGI_APPLICATION = 'djcontact.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'HOST':'ec2-174-129-231-25.compute-1.amazonaws.com',
-        'NAME':'djtip3dselct3',
-        'USER':'xbnsjqygimccgj',
-        'PORT':'5432',
-        'PASSWORD':'7ed3218f69fa2bb7e6fcb87fb051a0ab030b37ac98370b4bfc70c915f59551ad',
+        'Host':'ec2-174-129-231-25.compute-1.amazonaws.com',
+        'Name':'djtip3dselct3',
+        'User':'xbnsjqygimccgj',
+        'Port':'5432',
+        'Password':'7ed3218f69fa2bb7e6fcb87fb051a0ab030b37ac98370b4bfc70c915f59551ad',
     }
 }
 
